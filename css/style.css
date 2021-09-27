@@ -1,0 +1,238 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif; */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1300px;
+    padding: 0 20px;
+}
+
+/* header (start) */
+
+header {
+    height: auto;
+    background-color: #161b25;
+    color: #fff;
+}
+.left-side {
+    padding: 143px 0 86px;
+    width: 36%;
+    height: auto;
+    background-color: #21252f;
+}
+.header-img {
+    width: 100%;
+    border-radius: 1px;
+}
+.right-side {
+    padding: 160px 0 0 70px;
+    width: 54%;
+    height: 100%;
+}
+.name {
+    margin: 0;
+
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.name:hover {
+    cursor: pointer;
+}
+.stack:hover {
+    cursor: pointer;
+}
+.stack {
+    margin-top: 35px;
+    padding: 5px 17px;
+
+    font-size: 28px;
+    font-weight: 400;
+    display: inline-block;
+    background-color: #2e323b;
+    border-radius: 3px;
+}
+.stack::first-letter {
+    font-size: 34px;
+}
+.social {
+    margin: 53px 0 30px;
+    display: flex;
+}
+.social-link {
+    margin-right: 20px;
+    display: block;
+}
+svg {
+    display: block;
+    width: 35px;
+    height: 35px;
+    fill: rgba(255, 255, 255, 0.479);
+}
+svg:hover {
+    fill: #fff;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.bottom-block {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'AvantGardeGothicC', arial, sans-serif;
+    padding-bottom: 50px;
+}
+.bottom-item {
+    margin-right: 100px;
+}
+.bottom-item p:first-child {
+    margin: 0;
+}
+.tittle {
+    margin-top: 30px;
+    font-weight: 700;
+}
+.sub-tittle {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+.sub-tittle-dw {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 25px;
+    font-weight: 400;
+}
+/* header (end) */
+
+/* section (start) */
+section {
+    width: auto;
+    color: #555555;
+}
+.sec-left-side {
+    padding: 50px 0;
+    width: 36%;
+    height: auto;
+    background-color: #e7e8e9;
+}
+h2 {
+    margin: 0;
+
+    font-family: 'AvantGardeGothicC', arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #161b25;
+}
+.sec-text {
+    padding: 30px 0 30px 80px;
+    line-height: 30px;
+}
+.sec-tittle {
+    margin: 0;
+    padding: 20px 0 0 80px;
+    
+    font-family: 'AvantGardeGothicC', arial, sans-serif;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #161b25;
+}
+.sec-bottom-block {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 80px;
+}
+.info p {
+    color: #282828;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+.ellipse {
+    margin: 14px 20px 14px 0;
+    
+    display: block;
+    width: 20px;
+}
+.sec-right-side {
+    padding: 50px 0 50px 70px;
+    width: 54%;
+    height: 100%;
+}
+.sec-right-side .sec-tittle {
+    padding: 0;
+}
+.right-section {
+    margin: 60px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.right-item {
+    margin-right: 100px;
+}
+.years {
+    width: 120px;
+}
+.work-tittle {
+    margin: 16px 0 9px;
+    font-weight: 600;
+}
+.work-sub-tittle {
+    margin: 0;
+    font-weight: 400;
+}
+.sec-tittle-last {
+    margin: 70px 0 30px;
+    
+    font-family: 'AvantGardeGothicC', arial, sans-serif;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #161b25;
+}
+.tools-main-block {
+    display: flex;
+}
+.sec-tools:last-child {
+    margin-left: 32px;
+}
+.sec-tools {
+    display: flex;
+    flex-direction: column;
+}
+.tools-item {
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+}
+.name-tools {
+    width: 110px;
+    height: 40px;
+}
+.name-tools p {
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.tools-point {
+    margin-left: 30px;
+}
+.tools-item .ellipse {
+    margin: 0 3px;
+    display: inline-block;
+}
+/* section (end) */
+
+
+/* fonts */
+@font-face {
+    font-family: 'AvantGardeGothicC', arial, sans-serif;
+    src: url(../fonts/avantgardegothicc-bold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
