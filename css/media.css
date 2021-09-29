@@ -65,9 +65,6 @@
     .right-item {
         margin: 0;
     }
-    .bottom-item {
-        margin-right: 50px;
-    }
     .bottom-block {
         padding-bottom: 50px;
     }
@@ -85,6 +82,12 @@
     }
     .info p {
         margin: 21px 0;
+    }
+    .item {
+        margin-left: 30px;
+    }
+    h2 {
+        font-size: 32px;
     }
 }
 @media screen and (max-width: 810px) {
@@ -227,13 +230,13 @@
         font-size: 30px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .wrapper {
         justify-content: center;
         width: auto;
     }
     header {
-        height: auto;
+        height: 700px;
     }
     .stack {
         font-size: 22px;
@@ -245,12 +248,20 @@
         margin-top: 30px;
     }
     .bottom-item {
-        margin-right: 40px;
+        margin: 0;
+    }
+    .item {
+        margin-left: 0;
+        position: absolute;
+        top: 140px;
     }
     .left-side {
         position: relative;
         padding-top: 100px;
-        height: 570px;
+        height: 700px;
+    }
+    .link-bio-down {
+        margin-bottom: 10px;
     }
     .social {
         position: absolute;
@@ -274,8 +285,128 @@
     .bottom-block {
         position: absolute;
         top: 405px;
-        left: 56px;
+        left: 62px;
         padding-bottom: 50px;
+    }
+    .nav-menu {
+        flex-wrap: wrap;
+    }
+    .tools-main-block {
+        display: block;
+    }
+    .tools-item {
+        margin: 0;
+        align-items: center;
+    }
+    .ellipse {
+        width: 15px;
+    }
+    .tools-point {
+        margin-left: 0;
+    }
+    .name-tools {
+        margin: 5px 0;
+        height: 20px;
+    }
+    .name-tools p{
+        font-size: 15px;
+        margin: 0;
+        height: 0;
+    }
+    .ellipse {
+        margin: 13px 8px 13px 0;
+    }
+    .info p {
+        margin: 9px 0;
+    }
+    .sec-right-side {
+        padding-left: 30px;
+    }
+    .sec-bottom-block {
+        padding-left: 30px;
+    }
+    .sec-text {
+        padding: 10px 0 10px 30px;
+    }
+    .sec-tittle {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .sec-tittle-last {
+        margin: 18px 0;
+        font-size: 20px;
+    }
+    .sub-tittle-dw {
+        line-height: 32px;
+        margin-bottom: 7px;
+    }
+    .sec-tools:last-child {
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wrapper {
+        justify-content: center;
+        width: auto;
+    }
+    header {
+        height: auto;
+    }
+    .stack {
+        font-size: 22px;
+    }
+    .stack::first-letter {
+        font-size: 28px;
+    }
+    .tittle {
+        margin-top: 30px;
+    }
+    .bottom-item {
+        margin: 0;
+    }
+    .item {
+        margin-left: 0;
+        position: absolute;
+        top: 140px;
+    }
+    .link-bio-down {
+        margin-bottom: 300px;
+    }
+    .left-side {
+        position: relative;
+        padding-top: 100px;
+        height: 692px;
+    }
+    .social {
+        position: absolute;
+        top: 278px;
+        left: 56px;
+    }
+    .social-link {
+        margin-right: 15px;
+        display: block;
+    }
+    .right-side {
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+    .right-item {
+        margin: 0;
+    }
+    .right-section {
+        margin: 10px 0;
+    }
+    .bottom-block {
+        position: absolute;
+        top: 405px;
+        left: 62px;
+        padding-bottom: 50px;
+    }
+    .nav-menu {
+        flex-wrap: wrap;
     }
     .tools-main-block {
         display: block;
@@ -340,7 +471,7 @@
         padding: 0;
     }
     header {
-        height: 900px;
+        height: 1000px;
     }
     .header-img {
         border-radius: 3px;
@@ -376,6 +507,12 @@
         height: auto;
         width: 100%;
     }
+    .nav-menu {
+        flex-direction: column;
+        position: absolute;
+        top: 660px;
+        left: 223px;
+    }
     .social {
         position: absolute;
         top: 427px;
@@ -405,7 +542,7 @@
     }
     .bottom-block {
         position: absolute;
-        top: 697px;
+        top: 660px;
         left: 30px;
         padding-bottom: 50px;
     }
@@ -495,7 +632,7 @@
         padding: 0;
     }
     header {
-        height: 995px;
+        height: 1244px;
     }
     .header-img {
         border-radius: 3px;
@@ -531,6 +668,12 @@
         height: auto;
         width: 100%;
     }
+    .nav-menu {
+        flex-direction: column;
+        position: absolute;
+        top: 960px;
+        left: 30px;
+    }
     .item {
        position: absolute;
        top: 130px;
@@ -542,7 +685,7 @@
         left: 30px;
     }
     .social-link {
-        margin-right: 37px;
+        margin-right: 0;
     }
     .right-side {
         padding-top: 20px;

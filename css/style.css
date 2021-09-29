@@ -49,10 +49,17 @@ header {
 .stack:hover {
     cursor: pointer;
 }
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    margin: 3px 0;
+}
 .stack {
     margin-top: 35px;
-    padding: 5px 17px;
-
+    padding: 5px 20px;
     font-size: 28px;
     font-weight: 400;
     display: inline-block;
@@ -62,24 +69,77 @@ header {
 .stack::first-letter {
     font-size: 34px;
 }
-.social {
-    margin: 53px 0 30px;
+.nav-menu {
     display: flex;
 }
-.social-link {
-    margin-right: 20px;
+.nav-first-child{
+    margin-right: 5px;
+}
+ul {
+     width: 160px;
+     display: block;
+}
+.link-bio p {
+    margin: 0;
+    width: 160px;
+    font-size: 20px;
+    padding: 3px 10px;
+    display: inline-block;
+    background-color: #2e323b;
+    border: 1px solid #bebebe00;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.link-bio-span {
+    margin-left: 41px;
+}
+.second {
+    margin-left: 59px;
+}
+.link-bio p:hover {
+    border: 1px solid #bebebe;
+    transition: .3s linear;
+}
+.link-bio:hover .drop-down {
     display: block;
 }
-svg {
-    display: block;
-    width: 35px;
-    height: 35px;
-    fill: rgba(255, 255, 255, 0.479);
+.drop-down {
+    display: none;
 }
-svg:hover {
+.drop-li {
+    padding: 3px 10px;
+    height: 34px;
+    width: 160px;
+    background-color: #2e323b;
+    border: 1px solid #bebebe00;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop-li:hover {
+    transform: scale(1.02, 1.02);
+    border: 1px solid #bebebe;
+    transition: .4s linear;
+    border-radius: 2;
+    background-color: #42444b;
+}
+.drop-li:hover svg {
     fill: #fff;
     transition: all .3s linear;
     cursor: pointer;
+}
+.social {
+    margin: 30px 0 30px;
+    display: flex;
+}
+svg {
+    display: block;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    fill: rgba(255, 255, 255, 0.548);
 }
 .bottom-block {
     display: flex;
@@ -88,7 +148,7 @@ svg:hover {
     padding-bottom: 50px;
 }
 .bottom-item {
-    margin-right: 100px;
+    margin: 40px 0 0;
 }
 .bottom-item p:first-child {
     margin: 0;
@@ -96,6 +156,9 @@ svg:hover {
 .tittle {
     margin-top: 30px;
     font-weight: 700;
+}
+.title-addres {
+    margin-top: 10px;
 }
 .sub-tittle {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -105,6 +168,9 @@ svg:hover {
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 25px;
     font-weight: 400;
+}
+.item {
+    margin-left: 100px;
 }
 /* header (end) */
 
